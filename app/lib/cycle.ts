@@ -1,4 +1,4 @@
-// cycle read elements, ASK QUESTIONS
+// cycle read elements
 import {show, hide} from './utils';
 
 // Cycle class, default export 
@@ -36,10 +36,6 @@ export default class Cycle{
   }
   
   addEvents(): Void{
-    this.touch.addEventListener('click', this.next);
-  }
-  
-  removeEvents(): Void{
-    this.touch.removeEventListener('click', this.next);
+    this.touch.add
   }
 }
